@@ -1,0 +1,130 @@
+
+body{
+    background: linear-gradient(to bottom, #7ce7ef ,  #25816d); 
+
+}
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.contact-icons a {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-icons img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.contact-icons a:last-child {
+    margin-right: 0;
+}
+
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar ul {
+    float: left;
+    display: flex;
+    flex-direction: row;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: 250px;
+    list-style: none;
+}
+
+.navbar a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.contact-content .column.right {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-content .column.right .text {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-content .fields {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.contact-content .field {
+    margin-bottom: 10px;
+}
+
+.contact-content .field input,
+.contact-content .field textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact-content .field textarea {
+    resize: vertical;
+}
+
+.contact-content .button-area {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-content button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-content button:hover {
+    background-color: #0056b3;
+}
+
+.navbar a:hover{
+    color: rgb(101, 99, 99);
+}
+
+
+h2{
+    font-size: 80px;
+    font-family: 'Exo 2', sans-serif;
+
+}
+
+footer {
+    font-size: small;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
